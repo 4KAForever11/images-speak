@@ -8,7 +8,7 @@
 
 [ComfyUI项目地址](https://github.com/comfyanonymous/ComfyUI)
 
-[ChatTTS_colab项目地址](https://github.com/6drf21e/ChatTTS_colab?tab=readme-ov-file)
+[ChatTTS-ui项目地址](https://github.com/jianchang512/ChatTTS-ui)
 
 
 
@@ -122,6 +122,10 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 
 
+跑完之后右键保存图像就好了
+
+
+
 ![show3](https://github.com/4KAForever11/images-speak/blob/main/tu/show3.png)
 
 
@@ -131,6 +135,155 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 
 ![ComfyUI_00006_](https://github.com/4KAForever11/images-speak/blob/main/tu/ComfyUI_00006_.png)
+
+
+
+### ChatTTS-ui生成音频
+
+windows版本 [一键包下载](https://github.com/jianchang512/chatTTS-ui/releases)
+
+进入项目作者github发行页下载`v1.0完整包下载(1.7G含模型)`和最新的升级补丁包
+
+下载完后解压这2个压缩包，然后把解压出来的补丁包里面的文件复制到v1.0完整包解压出来的文件夹根目录下面进行全部替换
+
+
+
+默认将在第一次运行时自动下载模型，如果网络问题下载失败，请手动下载
+
+GitHub 下载地址： https://github.com/jianchang512/ChatTTS-ui/releases/download/v1.0/all-models.7z
+
+百度网盘下载: https://pan.baidu.com/s/1yGDZM9YNN7kW9e7SFo8lLw?pwd=ct5x
+
+下载后解压后，会看到asset文件夹，该文件夹内有多个pt文件，将所有pt文件复制到本目录下，然后重启软件
+
+
+
+最后点击根目录下的`app.exe`运行程序
+
+![show4](https://github.com/4KAForever11/images-speak/blob/main/tu/show4.png)
+
+
+
+在文本框输入想说的话和选择好想要的音色就行
+
+
+
+ChatTTS可以通过设置提示词：口语化、 笑声、停顿，合理使用让合成的语音更加逼真自然！
+
+
+
+口语化 ：`[oral]`
+
+笑声：`[laugh]`
+
+停顿：`[break]`
+
+
+
+
+
+### 安装SadTalker-让照片说话
+
+
+
+#### 前置工作
+
+
+
+**需要git，科学上网， python3.8+ 环境**
+
+
+
+1. **下载ffmpeg**
+
+打开[ffmpeg官网]([Download FFmpeg](https://ffmpeg.org/download.html)),然后点击`Windows`，选`gyan.dev`
+
+![ffmpeg](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/70adf706909677a866014a3fd4831878.png)
+
+
+
+  2.**下载Windows构建全版本的FFmpeg**
+
+![ffmpeg1](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/ccd461840f72886e072604852938f7a2.png)
+
+
+
+3. **解压，重命名解压后文件夹为FFmpeg**
+
+   p.s. 解压需要[安装7zip](https://www.7-zip.org/download.html)，好用的轻量级压缩工具。
+
+![ffmpege2](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/48305d9d5925172752d9719f54d66781.png)
+
+4. **配置PATH环境变量，添加完后记得点确定**
+
+![ffmpeg3](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/50cc7c4ba5d1cab72adbb088806419c1.png)
+
+
+
+![ffmpeg5](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/31cbdd2fec0c17cadf4bae904dccf55d.png)
+
+
+
+5. **检查是否安装成功**
+
+`打开【命令提示符】，输入ffmpeg，如图所示`
+
+![ffmpeg6](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/ddda6669079739da2426c645f0b7fd49.png)
+
+
+
+### **二、下载SadTalker代码**
+
+
+
+如果电脑没有git下载去 [官网下载]([Git - Downloading Package](https://git-scm.com/downloads/win)) windows版的git,同样的设置系统环境变量之后在cmd里面进入你需要下载到目录里面再运行下面命令git仓库文件
+
+
+
+`git clone https://github.com/Winfredy/SadTalker.git`
+
+
+
+![ffmpeg7](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/4dc6b6f297a44b889573c5b0a2d8da78.png)
+
+
+
+### 三、下载SadTalker模型文件
+
+参照[《官方文档》](https://github.com/OpenTalker/SadTalker)有三种方式，其中百度网盘是不用翻墙的，模型文件涉及以下两个文件夹：
+
+- [checkpoints](https://pan.baidu.com/s/1P4fRgk9gaSutZnn8YW034Q?pwd=sadt), 提取码: sadt
+- [gfpgan](https://pan.baidu.com/s/1kb1BCPaLOWX1JJb9Czbn6w?pwd=sadt), 提取码: sadt
+
+把下载好的模型文件放到checkpoints和weights下面
+
+
+
+![ffmpeg8](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/5f60301930bd63fd73946a98db7f891c.png)
+
+
+
+![ffmpeg9](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/ab758dfd3077041accb14b6e3b98560e.png)
+
+
+
+### 四、启动webUI
+
+第一次运行需要下载依赖，会有点慢
+
+
+
+![ffmpeg10](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/f152dae559b5baa471e354b6c532cb58.png)
+
+
+
+### 五、浏览器运行demo
+
+默认地址为 127.0.0.1:7860，拖入图像和语音，点击Generate即可进行合成（注：SadTalker/example下有样例可以拖进来试
+
+
+
+![ffmpeg11](https://cdn.jsdelivr.net/gh/donttal/imgbed/img/069c237b94a61ddf283f86ba40ffa4f3.png)
 
 
 
