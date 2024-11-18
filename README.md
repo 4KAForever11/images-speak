@@ -12,6 +12,7 @@
 
 
 
+
 本人笔记本配置对于跑这个来说不高，跑起来有点吃力(显卡3060 6G显存，16G运行内存)
 
 
@@ -24,10 +25,10 @@
 
 
 
+
 ### 生成模型Flux.1
 
 Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
-
 
 
 1. `[pro]` 是最顶级的模型，但是只能通过 API 调用；
@@ -59,6 +60,7 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
   
 
 **不管你下载上面的哪个模型，都存放在这个：ComfyUI/models/unet/ 目录下**
+
 
 
 
