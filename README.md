@@ -104,11 +104,11 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 然后我们修改提示词让电脑给我们生成我们想要的图片就行了（提示词最好用英语，英语不好，中文翻译一下就好了）
 
-这里我的提示词翻译过来就是：这是一张高分辨率的照片，一个时尚的美女站在一个安静的图书馆里，她的皮肤晶莹剔透，匀称的脸，她的身材穿着柔软的针织毛衣和飘逸的裙子，她仔细阅读书架时的表情若有感触，她的姿势优雅而镇定
+这里我的提示词翻译过来就是：`这是一张高分辨率的照片，一个时尚的美女站在一个安静的图书馆里，她的皮肤晶莹剔透，匀称的脸，她的身材穿着柔软的针织毛衣和飘逸的裙子，她仔细阅读书架时的表情若有感触，她的姿势优雅而镇定`
 
 
 
-英语：This is a high-resolution photograph, a fashionable beauty with clear, dewy skin and a symmetrical face stands in a tranquil library, her figure adorned in a soft, cable-knit sweater and a flowing skirt, her expression thoughtful as she peruses the shelves, her posture elegant and poised,Young Asian woman.
+英语：`This is a high-resolution photograph, a fashionable beauty with clear, dewy skin and a symmetrical face stands in a tranquil library, her figure adorned in a soft, cable-knit sweater and a flowing skirt, her expression thoughtful as she peruses the shelves, her posture elegant and poised,Young Asian woman.`
 
 
 
