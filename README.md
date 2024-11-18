@@ -90,7 +90,7 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 模型和我下载的一样的，这些选项和参数都和我一样就行
 
-![show1](tu\show1.png)
+![show1](https://github.com/4KAForever11/images-speak/blob/main/tu/show1.png)
 
 
 
@@ -112,7 +112,7 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 
 
-![show2](tu\show2.png)
+![show2](https://github.com/4KAForever11/images-speak/blob/main/tu/show2.png)
 
 
 
