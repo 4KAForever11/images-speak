@@ -118,4 +118,19 @@ Flux 模型总共有3个，分别是：`Flux Pro`、`Flux Dev`、`Flux Schnell`
 
 
 
-所有的设置都完成之后，点击右上角的【`添加提示词队列`】就开始文生图了，具体要跑多久出图主要还是看你的显卡给不给力了
+所有的设置都完成之后，点击右上角的【`添加提示词队列`】就开始文生图了，具体要跑多久出图主要还是看你的显卡和内存给不给力了
+
+
+
+![show3](https://github.com/4KAForever11/images-speak/blob/main/tu/show3.png)
+
+
+
+看CMD的控制台显示我用我的笔记本生成这张分辨率为1024×1536的图片用了1552秒，大概25.8分钟将近26分钟(跑的确实很慢啊😂)
+
+
+
+![ComfyUI_00006_](https://github.com/4KAForever11/images-speak/blob/main/tu/ComfyUI_00006_.png)
+
+
+
