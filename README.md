@@ -305,3 +305,11 @@ cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-c
 
 
 
+
+
+现在所有的项目都本地部署完成了，现在把我之前在ComfyUI生成的图片和ChatTTs生成的音频在SadTalker上传等待一会就会生成图片说话的视频了
+
+
+
+<video  src="https://www.bilibili.com/video/BV1tUUtY9Eui/?vd_source=63d4291b1aa1ccf96b2d6acc99f83fb9"> </video>
+
