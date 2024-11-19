@@ -297,7 +297,7 @@ cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-c
 
 ### 五、浏览器运行demo
 
-默认地址为 127.0.0.1:7860，拖入图像和语音，点击Generate即可进行合成（注：SadTalker/example下有样例可以拖进来试
+默认地址为 127.0.0.1:7860，拖入图像和语音，点击Generate即可进行合成（注：`SadTalker/example`下有样例可以拖进来试）
 
 
 
@@ -307,11 +307,15 @@ cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-c
 
 
 
-现在所有的项目都本地部署完成了，现在把我之前在ComfyUI生成的图片和ChatTTs生成的音频在SadTalker上传等待一会就会生成图片说话的视频了
+现在所有的项目都本地部署完成了，现在把我之前在`ComfyUI`生成的图片和`ChatTTs`生成的音频在`SadTalker`上传等待一会就会生成图片说话的视频了，不过我生成的音频没用女声，影响不大，后面用`ChatTTs`生成音频的时候记得换需要的音色就行
 
 
 
 [演示](https://www.youtube.com/shorts/RCp9yDS6ghA)
+
+
+
+
 
 
 
