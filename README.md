@@ -269,7 +269,25 @@ ChatTTS可以通过设置提示词：口语化、 笑声、停顿，合理使用
 
 ### 四、启动webUI
 
-第一次运行需要下载依赖，会有点慢
+第一次运行需要下载依赖，会很慢
+
+
+
+建议去自己下载好它需要的pytorch版本，手动安装，[点我下载](https://download.pytorch.org/whl/cu113/torch-1.12.1%2Bcu113-cp310-cp310-win_amd64.whl)
+
+
+
+cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-cp310-cp310-win_amd64.whl
+
+
+
+之后应该会有一个`gradio`库报错，因为默认安装最新版，这个错误是由于`Gradio`库的版本问题导致的。`gr.Row().style(equal_height=False)` 这种写法在较新的`Gradio`版本中可能不再适用
+
+
+
+我们安装指定版本就行`pip install gradio==3.46.1`
+
+
 
 
 
