@@ -311,11 +311,4 @@ cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-c
 
 
 
-[演示](https://www.youtube.com/shorts/RCp9yDS6ghA)
-
-
-
-
-
-
 
