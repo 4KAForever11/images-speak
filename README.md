@@ -180,6 +180,16 @@ ChatTTS可以通过设置提示词：口语化、 笑声、停顿，合理使用
 
 
 
+使用的时候建议调整参数`temperature`为最低，这是生成音频的底噪，如果调太高背景音会很吵，很杂和把`跳过refine text`的对勾去掉,其他参数看自己进行调整
+
+
+
+
+
+![show6](https://github.com/4KAForever11/images-speak/blob/main/tu/show6.png)
+
+
+
 
 
 ### 安装SadTalker-让照片说话
@@ -311,5 +321,4 @@ cmd进入`SadTalker\venv\Scripts`目录，然后pip install torch-1.12.1+cu113-c
 
 
 [成品演示视频](https://www.youtube.com/shorts/H4IK-rwcBE4)
-
 
